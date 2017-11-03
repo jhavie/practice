@@ -1,0 +1,70 @@
+{
+  "tags": {
+    "1": {
+      "color": "danger",
+      "name": "拒绝入区"
+    },
+    "2": {
+      "color": "success",
+      "name": "自动放行"
+    },
+    "3": {
+      "color": "primary",
+      "name": "待审核"
+    },
+    "4": {
+      "color": "warning",
+      "name": "待补充数据"
+    },
+    "5": {
+      "color": "grey",
+      "name": "人工拒绝"
+    },
+    "6": {
+      "color": "success",
+      "name": "人工放行"
+    },
+    "7": {
+      "color": "warning",
+      "name": "再补录入"
+    }
+  },
+
+  "alert": {
+    "1": {
+      "title": "拒绝入区",
+      "description": "系统判断有负面清单，拒绝入区",
+      "type": "error"
+    },
+    "2": {
+      "title": "自动放行",
+      "description": "系统判断通过，自动放行",
+      "type": "success"
+    },
+    "3": {
+      "title": "待审核",
+      "description": "系统判断，待审核",
+      "type": "info"
+    },
+    "4": {
+      "title": "补录数据",
+      "description": "系统判断待补充数据，补录数据",
+      "type": "warning"
+    },
+    "5": {
+      "title": "人工拒绝",
+      "description": "人工已判断拒绝入关",
+      "type": "error"
+    },
+    "6": {
+      "title": "人工放行",
+      "description": "人工已判断放行",
+      "type": "success"
+    },
+    "7": {
+      "title": "再补录入",
+      "description": "信息不全，企业需再补录入数据",
+      "type": "warning"
+    }
+  }
+}

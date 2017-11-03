@@ -1,0 +1,139 @@
+{
+  "biz": {
+    "/generateBill": {
+      "icon": "home",
+      "name": "换单生成账单",
+      "router": "bill/generateBill"
+    },"/generateFmBill": {
+      "icon": "home",
+      "name": "通用生成账单",
+      "router": "bill/generateFmBill"
+    },"/billCenter": {
+      "icon": "home",
+      "name": "账单中心",
+      "router": "bill/billCenter"
+    },"/payBillExport": {
+      "icon": "home",
+      "name": "换单账单导出",
+      "router": "bill/payBillExport"
+    },"/commBillExport": {
+      "icon": "home",
+      "name": "通用账单导出",
+      "router": "bill/commBillExport"
+    },
+
+
+    "/onlineRecharge": {
+      "icon": "home",
+      "name": "使用费充值",
+      "router": "recharge/onlineRecharge"
+    },
+    "/rechargePay4hd": {
+      "icon": "home",
+      "name": "充值信息查询",
+      "router": "recharge/rechargePay4hd"
+    },
+    "/usefeePay": {
+      "icon": "home",
+      "name": "使用费查询",
+      "router": "recharge/usefeePay"
+    },
+
+
+    "/invoiceCenter": {
+      "icon": "home",
+      "name": "发票中心",
+      "router": "invoice/invoiceCenter"
+    },
+    "/commInfo4ty": {
+      "icon": "home",
+      "name": "发票信息维护",
+      "router": "invoice/commInfo4ty"
+    }
+
+
+  },
+
+  "sys": {
+    "/home": {
+      "icon": "home",
+      "name": "首页",
+      "router": "home"
+    },
+    "/menu": {
+      "icon": "android-menu",
+      "name": "菜单管理",
+      "router": "menu"
+    },
+    "/payeeOrg": {
+      "icon": "briefcase",
+      "name": "收款机构",
+      "router": "payeeOrg"
+    },
+    "/commConfig": {
+      "icon": "cube",
+      "name": "常用参数配置",
+      "router": "commConfig"
+    },
+    "/bizItem": {
+      "icon": "ios-flag",
+      "name": "业务类型维护",
+      "router": "bizItem"
+    },
+    "/bizZfType": {
+      "icon": "pricetags",
+      "name": "业务-收款机构关联",
+      "router": "bizZfType"
+    },
+    "/commCode": {
+      "icon": "code-working",
+      "name": "常用代码",
+      "router": "commCode"
+    },
+    "/commConfirmCharge": {
+      "icon": "ios-filing",
+      "name": "收费确认书维护",
+      "router": "commConfirmCharge"
+    },
+    "/msgRecvLog": {
+      "icon": "reply",
+      "name": "报文接收日志",
+      "router": "msgRecvLog"
+    },
+    "/msgSendLog": {
+      "icon": "forward",
+      "name": "报文发送日志",
+      "router": "msgSendLog"
+    },
+    "/epmswsLog": {
+      "icon": "cloud",
+      "name": "同步接口收发日志",
+      "router": "epmswsLog"
+    },
+    "/actionLog": {
+      "icon": "clipboard",
+      "name": "日志管理",
+      "router": "actionLog"
+    },
+    "/rechargeType": {
+      "icon": "ios-calculator",
+      "name": "充值服务类别",
+      "router": "rechargeType"
+    },
+    "/uummUser": {
+      "icon": "ios-people",
+      "name": "登录用户信息",
+      "router": "uummUser"
+    },
+    "/sendConfig": {
+      "icon": "social-rss",
+      "name": "发送配置",
+      "router": "sendConfig"
+    },
+    "/exchangeRate": {
+      "icon": "social-yen",
+      "name": "货币汇率管理",
+      "router": "exchangeRate"
+    }
+  }
+}

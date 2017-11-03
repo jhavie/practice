@@ -1,0 +1,71 @@
+{
+  "timeout": 30,
+  "cors": true,
+  "post": {
+
+    "submitML": {
+      "url": "/shipAgentData/getShipHsCode"
+    },
+    "invoiceSearch": {
+      "url": "/shipAgentData/getShipAgentDataList"
+    },
+    "statusCount": {
+      "url": "/shipAgentData/getShipAgentDataCountByStatus"
+    },
+    "getDataByBillNo": {
+      "url": "/shipAgentData/getShipAgentDataByBillNo"
+    },
+    "billStatus": {
+      "url": "/shipAgentData/setShipAgentHsBillStatus"
+    },
+    "addHsBill": {
+      "url": "/shipAgentData/addShipAgentHsBill"
+    },
+
+    
+    "_framework": "框架接口",
+    "getSysMenu": {
+      "url": "/sysMenu/getSysMenu"
+    },
+    "getUserInfo": {
+      "dataType": "form",
+      "url": "/wechat/business/getUserInfo",
+      "oauth": true
+    },
+    "sysLogin": {
+      "url": "/wechat/bind/bindOrUnbind",
+      "oauth": false
+    },
+    "sysBind": {
+      "url": "/wechat/bind/bindindex",
+      "oauth": false
+    },
+    "checkPhone": {
+      "dataType": "form",
+      "url": "/wechat/bind/checkPhone"
+    },
+    "phoneMsg": {
+      "dataType": "form",
+      "url": "/wechat/bind/phoneMsg"
+    },
+    "sysSignin": {
+      "url": "/wechat/bind/saveOrUpdateUser",
+      "oauth": false
+    },
+    "sysLogout": {
+      "dataType": "form",
+      "url": "/loginOut",
+      "oauth": false
+    },
+    "resetPass": {
+      "url": "/wechat/bind/resetPass",
+      "oauth": false
+    }
+  },
+  "get": {},
+  "jsonp": [
+    "http://www.singlewindow.sh.cn/EpNewsgator/epnewsgator/fetchjsonnewsdata",
+    "http://wthrcdn.etouch.cn/weather_mini?citykey=101020100",
+    "http://www.singlewindow.sh.cn/EpNewsgator/epnewsgator/fetchsinglejsonnewsdata"
+  ]
+}
